@@ -25,3 +25,11 @@ void loadEnemies()
     ellipse(enemies.xPos,enemies.yPos,enemies.size,enemies.size);
   }
 }
+
+void keyPressed()
+{
+  if(keyCode == LEFT)
+  {
+    enemies.remove(0);
+  }
+}
