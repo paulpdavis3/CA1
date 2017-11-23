@@ -1,6 +1,7 @@
 void setup()
 {
   fullScreen();
+  cursor(CROSS);
 }
 
 ArrayList<Enemy> enemies = new ArrayList<Enemy>();
